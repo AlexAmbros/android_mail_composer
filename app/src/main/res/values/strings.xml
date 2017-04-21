@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quickstart</string>
+    <string name="send_mail">Send Email</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="title">Compose Email</string>
+
+    <string name="mail_to_hint">To:</string>
+    <string name="mail_bcc_hint">Cc/Bcc:</string>
+    <string name="mail_subject_hint">Subject:</string>
+
+    <string name="to_error_message">Please enter recipient email</string>
+    <string name="network_absence_error_message">No network connection available</string>
+    <string name="play_services_absence_message">This app requires Google Play Services. Please install\n
+    Google Play Services on your device and relaunch this app.</string>
+    <string name="exception_message">Exception occurred</string>
+
+</resources>

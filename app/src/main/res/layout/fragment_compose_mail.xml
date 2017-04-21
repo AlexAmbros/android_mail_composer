@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/to_mail_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail_to_hint"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/bcc_mail_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail_bcc_hint"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/subject_mail_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mail_subject_hint"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/body_mail_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="4"
+        android:textColor="@color/black"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/send_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Send" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/save_to_draft_btn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Save to draft" />-->
+</LinearLayout>
